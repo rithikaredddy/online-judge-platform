@@ -127,7 +127,7 @@ GET    /api/leaderboard           Get top users by solved count
 
 ## Live Demo
 
-🔗 [your-deployed-link.vercel.app](#) ← update after deployment
+🔗 online-judge-platform-pi.vercel.app
 
 ---
 
