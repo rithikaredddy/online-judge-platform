@@ -1,0 +1,17 @@
+{
+  "title": "Reverse a String",
+  "slug": "reverse-string",
+  "difficulty": "Easy",
+  "description": "Write a function that reverses a string. The input string is given as a single line. Print the reversed string.",
+  "examples": [
+    { "input": "hello", "output": "olleh", "explanation": "Reverse each character." },
+    { "input": "Hannah", "output": "hannaH", "explanation": "Case is preserved." }
+  ],
+  "testCases": [
+    { "input": "hello", "output": "olleh" },
+    { "input": "world", "output": "dlrow" },
+    { "input": "abcde", "output": "edcba" }
+  ],
+  "tags": ["String"],
+  "timeLimit": 1000
+}

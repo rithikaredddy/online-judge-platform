@@ -1,0 +1,70 @@
+.problem-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 1300px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .problem-page { grid-template-columns: 1fr; }
+}
+
+.problem-left {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.problem-right {
+  position: sticky;
+  top: 80px;
+}
+
+.problem-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.problem-header h2 {
+  font-size: 1.3rem;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.diff-tag {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.diff-easy   { background: #f0fdf4; color: #15803d; }
+.diff-medium { background: #fffbeb; color: #b45309; }
+.diff-hard   { background: #fef2f2; color: #b91c1c; }
+
+.problem-desc { font-size: 0.9rem; color: #333; line-height: 1.7; margin-bottom: 1.2rem; }
+
+.example-block {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.example-title { font-weight: 600; color: #555; margin: 0 0 6px; font-size: 0.8rem; }
+.example-block pre { margin: 4px 0; font-family: monospace; color: #333; }
+.example-exp { margin: 6px 0 0; color: #555; }
+
+.constraints { font-size: 0.85rem; color: #666; border-top: 1px solid #eee; padding-top: 1rem; }
+.constraints p { margin: 4px 0; }
+
+.loading-text { text-align: center; padding: 3rem; color: #888; }

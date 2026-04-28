@@ -1,0 +1,25 @@
+.verdict-box {
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.verdict-label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.verdict-meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.verdict-ac  { background: #f0fdf4; border-color: #22c55e; color: #15803d; }
+.verdict-wa  { background: #fef2f2; border-color: #ef4444; color: #b91c1c; }
+.verdict-tle { background: #fffbeb; border-color: #f59e0b; color: #b45309; }
+.verdict-re  { background: #fef2f2; border-color: #f97316; color: #c2410c; }
+.verdict-ce  { background: #f5f3ff; border-color: #8b5cf6; color: #6d28d9; }

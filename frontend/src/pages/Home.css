@@ -1,0 +1,82 @@
+.home-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.home-header h1 {
+  font-size: 1.6rem;
+  color: #1a1a2e;
+}
+
+.filter-tabs { display: flex; gap: 8px; }
+
+.filter-btn {
+  padding: 5px 14px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.filter-btn.active, .filter-btn:hover {
+  background: #7c83fd;
+  color: white;
+  border-color: #7c83fd;
+}
+
+.problems-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+
+.problems-table th {
+  background: #f8f9fa;
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+
+.problems-table td {
+  padding: 13px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.9rem;
+}
+
+.problems-table tr:last-child td { border-bottom: none; }
+.problems-table tr:hover td { background: #fafafa; }
+
+.prob-num { color: #aaa; width: 50px; }
+.prob-link { color: #1a1a2e; text-decoration: none; font-weight: 500; }
+.prob-link:hover { color: #7c83fd; }
+.prob-tags { color: #888; font-size: 0.8rem; }
+
+.diff-tag {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.tag-easy   { background: #f0fdf4; color: #15803d; }
+.tag-medium { background: #fffbeb; color: #b45309; }
+.tag-hard   { background: #fef2f2; color: #b91c1c; }
+
+.loading-text { color: #888; text-align: center; padding: 3rem; }
